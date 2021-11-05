@@ -1,5 +1,5 @@
 ---
-title: Capslock Enhancement
+title: My Capslock Enhancement
 url: https://vonng.com/capslock.json
 version: 3.0.3
 maintainers: [ Vonng ]
@@ -1256,20 +1256,20 @@ rules:
       #==========================================================#
       # ( e ) --> safari / finder / mail                         #
       #==========================================================#
-      - description: 'command + e = finder'
-        type: basic
-        from: { key_code: e, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a finder } ]
+      # - description: 'command + e = finder'
+      #   type: basic
+      #   from: { key_code: e, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a finder } ]
 
-      - description: 'option + e = mail'
-        type: basic
-        from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a mail } ]
+      # - description: 'option + e = mail'
+      #   type: basic
+      #   from: { key_code: e, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
+        # to: [ { shell_command: open -a mail } ]
 
-      - description: 'e = safari'
+      - description: 'e = finder'
         type: basic
         from: { key_code: e, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Safari } ]
+        to: [ { shell_command: open -a finder } ]
 
 
       #==========================================================#
@@ -1347,20 +1347,20 @@ rules:
       #==========================================================#
       # ( g ) --> idea / chrome / calender                       #
       #==========================================================#
-      - description: 'command + g = Chrome'
-        type: basic
-        from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'Google Chrome' } ]
+      # - description: 'command + g = Chrome'
+      #   type: basic
+      #   from: { key_code: g, modifiers: { mandatory: [ left_command, right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a 'Google Chrome' } ]
 
-      - description: 'option + g = Calender'
-        type: basic
-        from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a Calendar } ]
+      # - description: 'option + g = Calender'
+      #   type: basic
+      #   from: { key_code: g, modifiers: { mandatory: [ left_option, right_command,right_control,right_shift,right_option ] } }
+      #   to: [ { shell_command: open -a Calendar } ]
 
-      - description: 'g = Intellij IDEA'
+      - description: 'g = Chrome'
         type: basic
         from: { key_code: g, modifiers: { mandatory: [ right_command,right_control,right_shift,right_option ] } }
-        to: [ { shell_command: open -a 'IntelliJ IDEA' } ]
+        to: [ { shell_command: open -a 'Google Chrome' } ]
 
 
 
